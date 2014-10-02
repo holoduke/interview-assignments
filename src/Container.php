@@ -11,19 +11,6 @@ class Container
         $this->dataSets[] = $dataSet;
     }
 
-    public function __get($name)
-    {
-        foreach ($this->dataSets as $object) {
-            $value = $this->getValueFromDataSet($object, $name);
-
-            if ($value !== null) {
-                return $value;
-            }
-        }
-
-        return null;
-    }
-
     protected function getValueFromDataSet($dataSet, $key)
     {
         $method = 'get' . ucfirst($key);
