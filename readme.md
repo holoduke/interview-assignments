@@ -10,7 +10,7 @@ This repo will be loaded in your vagrant under **/assignment**
 Once you have your machine up and running, do a composer install to get all project dependencies installed.
 
 # PHPUnit
-Each assignment contains test or will require you to make tests. Once you did the composer install, you can run tests by running `vendor/bin/phpunit`. Settings are provided in the `phpunit.xml` and `phpunit-bootstrap.php` files.
+Each assignment contains tests or will require you to make tests. Once you did the composer install, you can run tests by running `vendor/bin/phpunit`. Settings are provided in the `phpunit.xml` and `phpunit-bootstrap.php` files.
 
 # Git
 Please give us a chance to see how you handle git.
